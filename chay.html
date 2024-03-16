@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồ chơi bán chạy</title>
+</head>
+<style>
+    .section {
+    margin-bottom: 50px;
+}
+.section p {
+    text-align: center;
+
+}
+.section h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 20px;
+    color: brown;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product{
+    width: calc(33.3% - 20px);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+.product h3{
+    margin-top: 10px 0;
+}
+.product button{
+    background-color: rebeccapurple;
+    color:#fff;
+    border: 1px solid violet;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section form{
+    margin-left: 35%;
+}
+.section form input{
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    
+}
+#name{
+    margin-left: 54px;
+}
+#email{
+    margin-left: 74px;
+}
+#message{
+    margin-left: 57px;
+
+}
+section form button{
+    margin-top: 20px;
+    width: 50px;
+    height: 25px;
+    margin-left: 370px;
+}
+footer{
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+@media screen and(max-width:768px ) 
+{
+ header{
+    padding: 10px;
+ }   
+ nav ul {
+    flex-wrap: wrap;
+ }
+ nav li{
+    margin-right: 10px;
+    margin-bottom: 10px;
+ }
+ .products{
+    flex-wrap: wrap;
+ }
+ .product{
+    width: calc(100%/2 - 10px);
+    margin-bottom: 30px;
+ }
+}
+</style>
+<body>
+    <section class="section">
+        <h2>Đồ chơi lượt mua nhiều nhất</h2>
+        <div class="products">
+            <div class="product">
+                <img src="images/10.jpg" >
+                <h3>Xe điều khiển nhào lộn</h3>
+                <p>Giá:369.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/13.jpg" >
+                <h3>Xe điều khiển địa hình 6 bánh màu xanh</h3>
+                <p>Giá: 229.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/11.jpg" >
+                <h3> Cano điều khiển màu xanh</h3>
+                <p>Giá: 515.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <h2>Đồ chơi sắp hết hàng </h2>
+        <div class="products">
+            <div class="product">
+                <img src="images/12.jpg" >
+                <h3>Bong bóng bắn xe</h3>
+                <p>Giá: 185.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/14.jpg" >
+                <h3>Bộ đường đua thiết lập tự do hotwheels  </h3>
+                <p>Giá: 349.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/15.jpg" >
+                <h3>Đồ chơi trẻ em lắp ráp mô hình thành phố  </h3>
+                <p>Giá: 179.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+</body>
+</html>

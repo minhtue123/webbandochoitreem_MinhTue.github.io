@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồ chơi bán chạy</title>
+</head>
+<style>
+    .section {
+    margin-bottom: 50px;
+}
+.section p {
+    text-align: center;
+
+}
+.section h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 20px;
+    color: brown;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product{
+    width: calc(33.3% - 20px);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+.product h3{
+    margin-top: 10px 0;
+}
+.product button{
+    background-color: rebeccapurple;
+    color:#fff;
+    border: 1px solid violet;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section form{
+    margin-left: 35%;
+}
+.section form input{
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    
+}
+#name{
+    margin-left: 54px;
+}
+#email{
+    margin-left: 74px;
+}
+#message{
+    margin-left: 57px;
+
+}
+section form button{
+    margin-top: 20px;
+    width: 50px;
+    height: 25px;
+    margin-left: 370px;
+}
+footer{
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+@media screen and(max-width:768px ) 
+{
+ header{
+    padding: 10px;
+ }   
+ nav ul {
+    flex-wrap: wrap;
+ }
+ nav li{
+    margin-right: 10px;
+    margin-bottom: 10px;
+ }
+ .products{
+    flex-wrap: wrap;
+ }
+ .product{
+    width: calc(100%/2 - 10px);
+    margin-bottom: 30px;
+ }
+}
+</style>
+<body>
+    <section class="section">
+        <h2>Hàng nhập khẩu mới về</h2>
+        <div class="products">
+            <div class="product">
+                <img src="images/16.jpg" >
+                <h3>Đồ chơi trẻ em đường ray leo thang </h3>
+                <p>Giá:143.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/17.jpg" >
+                <h3>Ráp tàu cướp biển chim cánh cụt </h3>
+                <p>Giá: 130.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/18.jpg" >
+                <h3> Lắp ráp thế giới khủng long</h3>
+                <p>Giá: 369.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <h2>Đồ chơi tồn kho </h2>
+        <div class="products">
+            <div class="product">
+                <img src="images/19.jpg" >
+                <h3>Lego Duplo – Chú vẹt</h3>
+                <p>Giá: 139.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/20.jpg" >
+                <h3>Đồ chơi câu cá + đập chuột chú rùa vàng  </h3>
+                <p>Giá: 95.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/tomau.jpg" >
+                <h3>Bộ bút vẽ tô màu làm sticker 12 màu </h3>
+                <p>Giá: 199.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+</body>
+</html>
